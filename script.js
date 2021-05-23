@@ -2,7 +2,7 @@ let guessBox = document.getElementById("number-input");
 let check = document.getElementById("guess");
 let history = document.getElementById("history");
 const randomNumber = Math.floor(Math.random()*100+1);
-let count = 1;
+let count = 0;
 let finalResult = false;
 history.innerHTML = "";
 
