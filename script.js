@@ -26,23 +26,23 @@ function computeWinner() {
 
     if (count < 5) {
         if (randomNumber == guess) {
-            result.innerHTML = "<h1>You Won!</h1>";
+            result.innerHTML = "<h1>You Won🕺💃!</h1>";
             finalResult = true;
         } else if (randomNumber < guess) {
-            result.innerHTML = "<h1>You Too High!</h1>";
+            result.innerHTML = "<h1>You Too High🤷!</h1>";
             finalResult = false;
         } else {
-            result.innerHTML = "<h1>You Too Low!</h1>";
+            result.innerHTML = "<h1>You Too Low🙇!</h1>";
             finalResult = false;
         }
         count ++;
     } else {
         if (randomNumber == guess) {
-            result.innerHTML = "<h1>You Won!</h1>";
+            result.innerHTML = "<h1>You Won🕺💃!</h1>";
             finalResult = true;
         }
         else {
-            result.innerHTML = "<h1>You Lose!</h1>";
+            result.innerHTML = "<h1>You Lose🙆!</h1>";
             finalResult = true;
         }
     }
